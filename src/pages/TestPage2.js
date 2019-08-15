@@ -11,67 +11,6 @@ import { connect } from "unistore/react";
 // const baseUrl = "https://newsapi.org/v2/everything?";
 
 class TestPage1 extends React.Component {
-  //   constructor(props) {
-  //     super(props);
-  //     this.state = {
-  //       search: {
-  //         placeHolder: "search...",
-  //         keyword: "search..."
-  //       }
-  //     };
-  //   }
-
-  //   handleSearch = event => {
-  //     this.setState({ search: { keyword: event.target.value } }, () => {
-  //       this.getData(this.state.search.keyword);
-  //     });
-  //   };
-
-  //   getData = keyword => {
-  //     const self = this;
-
-  //     // check apakah keyword kosong
-  //     if (keyword === "") {
-  //       axios
-  //         .get(baseUrl + "q=indonesia" + "&apiKey=" + apiKey)
-  //         .then(function(response) {
-  //           self.props.setListNews(response.data.articles.slice(0, 5));
-  //           console.log(response);
-  //         })
-  //         // Handle Error
-  //         .catch(function(error) {
-  //           console.log(error);
-  //         });
-  //     } else {
-  //       axios
-  //         .get(baseUrl + "q=" + keyword + "&apiKey=" + apiKey)
-  //         .then(function(response) {
-  //           self.props.setListNews(response.data.articles.slice(0, 5));
-  //           console.log(response);
-  //         })
-  //         // Handle Error
-  //         .catch(function(error) {
-  //           console.log(error);
-  //         });
-  //     }
-  //   };
-
-  //   componentDidMount = () => {
-  //     const self = this;
-  //     axios
-  //       .get(baseUrl + "q=indonesia" + "&apiKey=" + apiKey)
-  //       .then(function(response) {
-  //         // self.setState({ listNews: response.data.articles.slice(0, 5) });
-  //         self.props.setListNews(response.data.articles.slice(0, 5));
-  //         console.log(response);
-  //         console.log(self.props.listNews);
-  //       })
-  //       // Handle Error
-  //       .catch(function(error) {
-  //         console.log(error);
-  //       });
-  //   };
-
   render() {
     return (
       <div>
